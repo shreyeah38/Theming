@@ -1,0 +1,12 @@
+style:
+  css:
+    theme:
+      css/style.css: {}
+      css/animate.css: {}
+      css/bootsnav.css: {}
+      css/bootstrap.min.css: {}
+      css/flaticon.css: {}
+      css/font-awesome.min.css: {}
+      css/owl.carousel.min.css: {}
+      css/owl.theme.default.min.css: {}
+      css/responsive.css: {}

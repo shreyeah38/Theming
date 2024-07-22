@@ -1,0 +1,14 @@
+name: Blakey
+type: theme
+description: Blakey theme
+core_version_requirement: 10.3.1
+base theme: claro
+
+
+regions: 
+  main_navigation: 'Main Navigation'
+  content: 'Content'
+  footer: 'Footer'
+
+libraries:
+  - blakey/style
