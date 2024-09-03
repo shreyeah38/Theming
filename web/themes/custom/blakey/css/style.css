@@ -68,6 +68,11 @@ p {
 	font-size:14px;
 	font-family: 'Poppins', sans-serif;
 }
+/* 
+.toolbar-lining {
+    z-index: 9999;
+} */
+
 img{border:none;max-width:100%; height:auto;}
 ul{
 	padding: 0;
@@ -127,6 +132,20 @@ nav.navbar.bootsnav {
 }
 /*.navbar-brand*/
 
+
+nav.navbar.bootsnav ul.nav{
+    display: flex;
+}
+
+div.navbar-header a.navbar-brand{
+    padding-left: 20px;
+}
+
+nav.navbar div.container{
+    display: flex;
+    justify-content: space-between;
+}
+
 /*.nav li*/
 nav.navbar.bootsnav ul.nav > li > a {
     font-size: 16px;
@@ -155,7 +174,10 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
 
 
 /*.menu-ui-design*/
-.menu-ui-design{overflow-y:scroll;height: 350px;}
+.menu-ui-design {
+    /* overflow-y:scroll; */
+    height: auto;
+}
 .menu-ui-design::-webkit-scrollbar {
     width:5px;
 }
@@ -190,7 +212,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     align-items: center;
     justify-content: center;
     position:relative;
-    background:url(../images/about/welcome-banner.jpg)no-repeat;
+    background:url(../images/welcome-banner.jpg)no-repeat;
     background-size:cover;
     background-position: center;
     height:890px;
@@ -200,7 +222,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     content: " ";
     top:0;
     left:0;
-    background:rgba(31,44,108,.65);
+    background:rgba(31, 44, 108, 0.253);
     width:100%;
     height:100%;
 }
